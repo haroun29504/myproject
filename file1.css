@@ -1,3 +1,58 @@
-h1{
-    color: aquamarine;
+/* Appliquer Flexbox au corps de la page pour centrer le formulaire */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+    margin: 0; /* Supprime les marges par défaut */
+    background-color: #363030; /* Couleur de fond */
+    background-image: url("https://img.freepik.com/vecteurs-libre/fond-technologie-numerique-fil-maille-reseau_1017-27428.jpg?semt=ais_hybrid");
+    background-size: cover; /* Ajuste l'image pour couvrir toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+/* Style du formulaire */
+#inscriptionForm {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #0d0d0d; /* Bordure de 2px de couleur noire */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: #c9e4ea; /* Couleur de fond du formulaire */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée pour un effet de profondeur */
+}
+
+/* Style des champs et des labels */
+#inscriptionForm div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Aligne le label et l'input verticalement */
+}
+
+#inscriptionForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#inscriptionForm input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur */
+}
+
+/* Style du bouton */
+#inscriptionForm button {
+    width: 100px;
+    padding: 10px;
+    background-color: #9cb0c5; /* Bleu Bootstrap */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+#inscriptionForm button:hover {
+    background-color: #0056b3; /* Bleu foncé au survol */
 }
