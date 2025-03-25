@@ -1,0 +1,2 @@
+alert("welcome")
+alert("haroun")
